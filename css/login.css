@@ -1,0 +1,15 @@
+* {margin:0; padding:0}
+html, body {height:100%}
+body {background: url(../images/1.jpg) no-repeat; background-size: cover; font-family: Segoe UI Light, Calibri;}
+.login {width:304px; height:300px; border-radius: 10px; position: fixed; top:50%; left:50%; margin-left: -152px; margin-top:-150px}
+.login-top {padding:0}
+.login-head {color:#fff; font-size:24px; }
+
+input::-webkit-input-placeholder { color: #fff; }
+.ipt {background: rgba(45,45,45,.15);font-size:14px;color:#fff; width:270px; height:42px; margin-top:25px; padding: 0 15px; border-radius: 6px; border: 1px solid rgba(255,255,255,.15); box-shadow: 0 2px 3px 0 rgba(0,0,0,.1) inset;  outline:none; transition: all .2s; font-family: Segoe UI Light, Calibri;}
+.ipt:focus {box-shadow:0 2px 3px 0 rgba(0,0,0,.1) inset, 0 2px 7px 0 rgba(0,0,0,.2); text-shadow: 0 1px 2px rgba(0,0,0,.1);}
+
+.btn-login { cursor: pointer;width: 300px;height: 44px;margin-top: 25px;background: #ef4300;border-radius: 6px;border: 1px solid #ff730e;
+box-shadow:0 15px 30px 0 rgba(255,255,255,.25) inset,0 2px 7px 0 rgba(0,0,0,.2); font-family: Segoe UI Light, Calibri; font-size: 14px;
+    font-weight: 700;color: #fff;text-shadow: 0 1px 2px rgba(0,0,0,.1);transition: all .2s; outline:none}
+.btn-login:hover {box-shadow:0 15px 30px 0 rgba(255,255,255,.15) inset,0 2px 7px 0 rgba(0,0,0,.2);}
